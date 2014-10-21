@@ -21,13 +21,11 @@ title: Getting Started
 
 ### Usage
 
-```bash
 	$ sbt ios/device
 	$ sbt ios/iphone-sim
 	$ sbt ios/ipad-sim
 	$ sbt ios/ipa
-	$ sbt ios/simulator
-```
+	$ sbt ios/simulator #See below.
 
 ### Simulators
 
