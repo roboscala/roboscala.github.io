@@ -1,0 +1,22 @@
+# Site settings
+title: Roboscala
+email: ajhager@gmail.com
+description: "Build iOS apps and games using Scala and RoboVM"
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: e06900
+  secondary: 412c50
+  secondary-dark: 291d31
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: http://twitter.com/roboscala
+  - title: stack-overflow
+    url: http://stackoverflow.com/questions/tagged/robovm
+  - title: github
+    url: http://github.com/roboscala
+
+# Build settings
+permalink: pretty

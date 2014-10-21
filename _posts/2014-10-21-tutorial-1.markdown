@@ -1,0 +1,38 @@
+---
+layout: default
+modal-id: 1
+date: 2014-10-21
+img: code.png
+title: Getting Started
+---
+
+### Setup
+
+1. Install Xcode 6.x
+1. Install [JDK 7](http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html)
+1. Install [sbt](http://www.scala-sbt.org/release/docs/Getting-Started/Setup.html)
+1. Download and extract [robovm-1.0.0-alpha-04.tar.gz](http://download.robovm.org/robovm-1.0.0-alpha-04.tar.gz) to one of these places:
+	* ~/Applications/robovm/
+	* ~/.robovm/home/
+	* /usr/local/lib/robovm/
+	* /opt/robovm/
+	* /usr/lib/robovm/
+1. See [roboscala-samples](http://github.com/roboscala/roboscala-samples) for project creation and configuration
+
+### Usage
+
+```bash
+	$ sbt ios/device
+	$ sbt ios/iphone-sim
+	$ sbt ios/ipad-sim
+	$ sbt ios/ipa
+	$ sbt ios/simulator
+```
+
+### Simulators
+
+The `simulator` task will run the program on device specified by the `simulatorDevice` setting key. For example: `RobovmPlugin.simulatorDevice := Some("iPad-Air, 7.1")`
+
+To see all installed simulators, run `$ sbt simulator-devices`.
+
+You can download simulators for more iOS versions in Xcode. (Xcode includes only the latest iOS simulator by default.)
